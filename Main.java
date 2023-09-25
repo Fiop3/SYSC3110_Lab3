@@ -3,6 +3,6 @@ public class Main {
         BuddyInfo buddy = new BuddyInfo("Homer","Carleton","613");
         AddressBook addressBook = new AddressBook();
         addressBook.addBuddy(buddy);
-        addressBook.removeBuddy(buddy);
+        addressBook.removeBuddy(0);
     }
 }
